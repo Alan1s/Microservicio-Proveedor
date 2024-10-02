@@ -17,7 +17,7 @@ import lombok.Setter;
 public class Proveedor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id_Cliente;
+    private long id_Proveedor;
     private String Nombre;
     private int Edad;
     private String Foto;

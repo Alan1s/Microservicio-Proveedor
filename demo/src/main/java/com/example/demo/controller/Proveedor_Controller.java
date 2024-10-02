@@ -21,7 +21,7 @@ import com.example.demo.service.Proveedor_service;
 
 @RestController
 @CrossOrigin
-@RequestMapping(value = "/api/v1/Proveedor")
+@RequestMapping(value = "/api/v1/proveedor")
 public class Proveedor_Controller {
     Proveedor_service Proveedor_service;
 
