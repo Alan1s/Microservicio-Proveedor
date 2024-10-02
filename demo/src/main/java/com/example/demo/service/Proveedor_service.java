@@ -14,11 +14,11 @@ import com.example.demo.repositories.Proveedor_Repository;
 
 @Service
 public class Proveedor_service {
-
+    @Autowired
     Proveedor_Repository Proveedor_Repository;
     ModelMapper modelMapper;
 
-    @Autowired
+    
     public Proveedor_service(Proveedor_Repository Proveedor_repository, ModelMapper modelMapper) {
         this.Proveedor_Repository = Proveedor_repository;
         this.modelMapper = modelMapper;
