@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: microservicio-proveedor
+  config:
+    import: configserver:http://localhost:8888
